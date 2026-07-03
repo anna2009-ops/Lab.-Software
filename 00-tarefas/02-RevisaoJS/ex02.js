@@ -8,3 +8,13 @@
 // cidade
 
 // Depois imprima todas elas e em seguida imprima seus tipos.
+
+let nome = "Anna"
+let sobrenome ="Pinheiro"
+let idade = 17
+let cidade = "belo horizonte"
+
+console.log(typeof nome);
+console.log(typeof sobrenome);
+console.log(typeof idade);
+console.log(typeof cidade);
