@@ -10,3 +10,10 @@
 //Mostre no terminal concatenando as variáveis
 
 //O peso da pessoa analisadea é (peso) e sua altura (altura), seu IMC é igual a (IMC)
+
+let altura = 1.59;
+let peso = 53;
+let imc = peso / (altura * altura);
+
+console.log(`IMC de altura: ${altura} e peso: ${peso} é igual a ${peso / (altura * altura)}`,
+);
