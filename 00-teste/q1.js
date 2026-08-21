@@ -33,7 +33,13 @@ rl.question("Digite o resultado do primeiro dado: ", (dadoUm) => {
 
     //REALIZE O EXERCÍCIO AQUI 🔽
 
-
+    if (dadoUm == dadoDois){
+    let soma = (dadoUm + dadoDois) * 2
+    console.log(`O resultado da soma é ${soma}`);}
+    else {
+    let soma2 = dadoUm + dadoDois
+    console.log(`O resultado da soma é ${soma2}`);}
+    
 
     rl.close();
   });

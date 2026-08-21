@@ -20,6 +20,7 @@ Se o número for menor que 1, retorne a frase Fora do escopo, prqueno de mais.
 
 */
 
+const { log } = require("console");
 const { createInterface } = require("readline");
 
 const rl = createInterface({
@@ -31,6 +32,28 @@ rl.question("Digite um número: ", (numero) => {
   numero = Number(numero);
 
   //REALIZE O EXERCÍCIO AQUI 🔽
+   if (numero == 1 ){
+    console.log(`um`)
+}
+else if (numero == 2){
+    console.log(`dois`)
+}
+else if (numero == 3){
+    console.log(`tres`)
+}
+else if (numero == 4){
+    console.log(`quatro`)
+}
+else if (numero == 5){
+    console.log(`cinco`)
+}
 
+
+else if (numero > 5){
+    console.log(`Grande demais`)
+}
+else if (numero < 1 ){
+    console.log(`Pequeno demais`)
+}
   rl.close();
 });
